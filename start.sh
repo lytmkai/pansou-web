@@ -32,8 +32,8 @@ mkdir -p /app/data/logs/nginx
 mkdir -p /app/data/ssl
 
 # 为nginx日志创建软链接（nginx默认在/var/log/nginx写日志）
-rm -rf /var/log/nginx
-ln -sf /app/data/logs/nginx /var/log/nginx
+#rm -rf /var/log/nginx
+#ln -sf /app/data/logs/nginx /var/log/nginx
 
 # 检测SSL证书是否存在
 SSL_AVAILABLE=false
