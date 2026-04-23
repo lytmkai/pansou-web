@@ -35,6 +35,7 @@ mkdir -p /app/data/ssl
 #rm -rf /var/log/nginx
 #ln -sf /app/data/logs/nginx /var/log/nginx
 
+
 # 检测SSL证书是否存在
 SSL_AVAILABLE=false
 if [ -f "/app/data/ssl/fullchain.pem" ] && [ -f "/app/data/ssl/privkey.pem" ]; then
